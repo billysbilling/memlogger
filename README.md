@@ -6,7 +6,7 @@ Logs memory usage objects via custom log function
 
 In your deps:
 
-```
+```json
 {
   "memlogger": "git://github.com/billysbilling/memlogger.git#v0.0.1"
 }
@@ -14,7 +14,7 @@ In your deps:
 
 Or if you prefer a tarball:
 
-```
+```json
 {
   "memlogger": "https://github.com/billysbilling/memlogger/archive/v0.0.1.tar.gz"
 }
