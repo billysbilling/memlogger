@@ -2,6 +2,26 @@
 Logs memory usage objects via custom log function
 
 
+## Install
+
+In your deps:
+
+```
+{
+  "memlogger": "git://github.com/billysbilling/memlogger.git#v0.0.1"
+}
+```
+
+Or if you prefer a tarball:
+
+```
+{
+  "memlogger": "https://github.com/billysbilling/memlogger/archive/v0.0.1.tar.gz"
+}
+```
+
+## Use
+
 ```js
 require('memlogger')(console.log);
 ```
