@@ -1,2 +1,19 @@
 # memlogger
 Logs memory usage objects via custom log function
+
+
+```js
+require('memlogger')(console.log);
+```
+
+Or if you have some custom log function that takes an object of properties to log:
+
+```js
+require('memlogger')(logger.info.bind(logger));
+```
+
+And if you want to customize the memory usage interval
+
+```js
+require('memlogger')(console.log, 30000); // log usage every 30 seconds via console.log
+```
