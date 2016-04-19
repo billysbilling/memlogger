@@ -1,0 +1,22 @@
+{
+  "name": "memlogger",
+  "version": "0.0.1",
+  "description": "Logs memory periodically and on gc (via memwatch-next)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billysbilling/memlogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billysbilling/memlogger/issues"
+  },
+  "homepage": "https://github.com/billysbilling/memlogger#readme",
+  "dependencies": {
+    "memwatch-next": "^0.2.10"
+  }
+}
