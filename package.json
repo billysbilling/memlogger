@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/billysbilling/memlogger#readme",
   "dependencies": {
-    "memwatch-next": "^0.2.10"
+    "node-memwatch": "^1.0.1"
   }
 }
